@@ -1,0 +1,114 @@
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 64px;
+    color: black;
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: black;
+}
+
+h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: black;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+#banner {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#navigation {
+    text-align: center;
+    background-color: darkgrey;
+    color:white;
+    height: 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    padding: 25px;
+}
+
+.organizations {
+    display: flex;
+}
+
+.org {
+    flex: 1;
+    padding: 10px;
+}
+
+.org img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.event {
+    flex: 1;
+    padding: 10px;
+    width: 30%;
+}
+
+.all-events {
+    display:flex;
+}
+
+.all-events img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.articles img {
+    width: 30%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+}
+
+.headliner {
+    width: 60%;
+    padding: 5px;
+}
+
+.headliner img {
+    width: 90%;
+}
+
+.articles {
+    width: 40%;
+}
+
+.articles img {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
